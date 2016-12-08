@@ -22,7 +22,7 @@ public class DriverManager {
     public static void openBrowser (){
         String browser="chrome";
         if (browser.equalsIgnoreCase("Chrome")){
-            System.setProperty("webdriver.chrome.driver","src\\test\\java\\Resources\\BrowserDriver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","src\\test\\Resources\\BrowserDriver\\chromedriver.exe");
             driver=new ChromeDriver();
         }
         else if((browser.equalsIgnoreCase("IE"))){
@@ -34,7 +34,7 @@ public class DriverManager {
             //capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 
            // capabilities.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
-            System.setProperty("webdriver.ie.driver", "src\\test\\java\\Resources\\BrowserDriver\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "src\\test\\Resources\\BrowserDriver\\IEDriverServer.exe");
             driver=new InternetExplorerDriver(capabilities);
 
         }
