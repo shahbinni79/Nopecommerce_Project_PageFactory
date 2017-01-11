@@ -20,7 +20,7 @@ public class DriverManager {
     public DriverManager (){PageFactory.initElements(driver,this);}
 
     public static void openBrowser (){
-        String browser="chrome";
+        String browser="";
         if (browser.equalsIgnoreCase("Chrome")){
             System.setProperty("webdriver.chrome.driver","src\\test\\Resources\\BrowserDriver\\chromedriver.exe");
             driver=new ChromeDriver();

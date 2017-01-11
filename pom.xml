@@ -39,12 +39,12 @@
       <artifactId>cucumber-jvm</artifactId>
       <version>1.2.4</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
-    <dependency>
-      <groupId>info.cukes</groupId>
-      <artifactId>cucumber-java</artifactId>
-      <version>1.2.4</version>
-    </dependency>
+    <!--&lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-java &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>info.cukes</groupId>-->
+      <!--<artifactId>cucumber-java</artifactId>-->
+      <!--<version>1.2.4</version>-->
+    <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
     <dependency>
       <groupId>info.cukes</groupId>

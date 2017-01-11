@@ -1,9 +1,15 @@
 package NopecommerceProject;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.awt.*;
 
 /**
  * Created by welcome on 21/11/2016.
@@ -96,6 +102,25 @@ public class TestSuit extends DriverManager {
         emailafriend.emailFriend();
         Assert.assertEquals(emailafriend.getTexemailSentText(),"Your message has been sent.");
         registration.logout();
+    }
+    @Test
+    public void robotclass_testing()throws AWTException{
+        WebElement webele = driver.findElement(By.className("ico-login"));
+        Point p = webele.getLocation();
+        System.out.println("login location"+p);
+        int x = p.getX();
+        System.out.println("x= "+x);
+        int y = p.getY();
+        System.out.println("y= "+y);
+        Dimension d = webele.getSize();
+        System.out.println("dimention "+d);
+        int h = d.getHeight();
+        System.out.println("h= "+h);
+        int w = d.getWidth();
+        System.out.println("w= "+w);
+        Robot r = new Robot();
+        r.mouseMove(x + (w/2), y+(h/2) +80);
+        System.out.println(1071+(33/2)+","+ 0+(45/2)+80);
     }
 
 
