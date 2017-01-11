@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf5f424-8555-4f61-947d-3c2756d1bf5a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nopecommerce_Project_PageFactory.iml" afterPath="$PROJECT_DIR$/Nopecommerce_Project_PageFactory.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/NopecommerceProject/DriverManager.java" afterPath="$PROJECT_DIR$/src/main/java/NopecommerceProject/DriverManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/NopecommerceProject/TestSuit.java" afterPath="$PROJECT_DIR$/src/test/java/NopecommerceProject/TestSuit.java" />
     </list>
     <ignored path="Nopecommerce_Project_PageFactory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -576,6 +571,14 @@
       <option name="presentableId" value="Default" />
       <updated>1481162701528</updated>
     </task>
+    <task id="LOCAL-00001" summary="robotclass">
+      <created>1484100759592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484100759592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,6 +632,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="robotclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="robotclass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
